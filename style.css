@@ -1,0 +1,35 @@
+body
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading
+{
+    box-shadow: 10cm 10cm 10cm red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: double;
+}
+
+.note
+{
+    border-top-style: dashed;
+    padding: auto;
+}
+
+canvas
+{
+    background-color: white;
+    border: 5px solid;
+    border-radius: 20px;
+
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{border: 5px solid red;}
+    to{border: 5px solid yellow;}
+}
